@@ -1,0 +1,33 @@
+.expenseCard {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.expenseDescription {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 15px;
+  font-size: 1.4rem;
+}
+.expenseAmount {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.expenseCardWrapper {
+  margin-top: 5px;
+  margin-bottom: 5;
+}
+@media screen and (max-device-width: 425px) {
+  .expenseCard {
+    text-align: left;
+    display: block;
+  }
+  .expenseDescription {
+    padding: 0;
+  }
+}
